@@ -1,0 +1,21 @@
+@import '../../../../app/styles/colors.scss';
+
+.goods {
+  margin-top: 92px;
+  display: flex;
+  gap: 30px;
+}
+
+.buttonBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.btn {
+  &:hover {
+    background-color: $btn !important;
+    color: #fff !important;
+  }
+}

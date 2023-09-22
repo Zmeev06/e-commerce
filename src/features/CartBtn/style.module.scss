@@ -1,0 +1,14 @@
+@import '../../app/styles/colors.scss';
+
+.cart {
+  cursor: pointer;
+
+  & * {
+    transition: 0.3s;
+  }
+  &:hover {
+    * {
+      fill: $grey;
+    }
+  }
+}

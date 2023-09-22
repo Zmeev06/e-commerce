@@ -1,0 +1,54 @@
+@import '../../app/styles/colors.scss';
+
+.root {
+  width: 350px;
+  height: 558px;
+}
+
+.img {
+  width: 100%;
+  height: 478px;
+  object-fit: cover;
+  cursor: pointer;
+  &Block {
+    position: relative;
+  }
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 478px;
+  background-color: rgba(110, 156, 159, 0.64);
+  top: 0px;
+  opacity: 0;
+  cursor: pointer;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &Active {
+    opacity: 100;
+  }
+}
+
+.textBlock {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.price {
+  font-size: 15px;
+  color: $price;
+  cursor: pointer;
+}

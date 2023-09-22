@@ -21,6 +21,7 @@
       "@app/*": ["./app/*"],
       "@assets": ["./assets"],
       "@assets/*": ["./assets/*"],
+      "@shared": ["./shared"],
       "@components": ["./components"],
       "@components/*": ["./components/*"]
     }
