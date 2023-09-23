@@ -1,0 +1,43 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.slides {
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &Container {
+    display: flex;
+    transition: 0.5s;
+    width: 100%;
+  }
+}
+.btn {
+  display: block;
+  height: fit-content;
+}
+
+.arrow {
+  & * {
+    stroke: black;
+  }
+
+  &Left {
+    transform: rotate(180deg);
+  }
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.dots {
+  position: absolute;
+  bottom: 20px;
+}

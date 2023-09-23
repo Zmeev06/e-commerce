@@ -1,5 +1,9 @@
-import { ImportantPoints } from 'widgets/ImportantPoints'
-import { NewCollection, TopBlock } from 'widgets/MainPageWidgets'
+import {
+  ImportantPoints,
+  NewCollection,
+  Team,
+  TopBlock,
+} from 'widgets/MainPageWidgets'
 
 export const MainPage = () => {
   return (
@@ -7,6 +11,7 @@ export const MainPage = () => {
       <TopBlock />
       <NewCollection />
       <ImportantPoints />
+      <Team />
     </div>
   )
 }

@@ -1,0 +1,25 @@
+@import '../../app/styles/colors.scss';
+
+.root {
+  background-color: $bg-orange;
+  padding: 104px 0;
+}
+
+.content {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightText {
+  margin-top: 73px;
+}
+
+.link {
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    color: #0000007a;
+  }
+}

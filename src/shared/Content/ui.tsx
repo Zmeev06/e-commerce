@@ -1,8 +1,15 @@
 import { ContentProps } from './interfaces'
 
-export const Content = ({ children, maxW, mt }: ContentProps) => {
+export const Content = ({
+  children,
+  maxW,
+  mt,
+  className,
+  mb,
+}: ContentProps) => {
   return (
     <div
+      className={className}
       style={{
         maxWidth:
           maxW === 'sm'
@@ -15,6 +22,7 @@ export const Content = ({ children, maxW, mt }: ContentProps) => {
             : '100vw',
         margin: '0 auto',
         marginTop: mt,
+        marginBottom: mb,
       }}
     >
       {children}

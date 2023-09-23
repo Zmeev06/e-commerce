@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  height: 4px;
+  width: 30px;
+  background-color: #ffffff7d;
+}
+
+.active {
+  background-color: #fff;
+}
